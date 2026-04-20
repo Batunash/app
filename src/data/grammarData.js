@@ -69,10 +69,24 @@ Sıcaklamak, üşümek, acıkmak gibi fiziksel durumlar İtalyancada **essere** 
   - *avere paura* (korkmak) -> Hai paura dei ragni? (Örümceklerden korkar mısın?)
   - *avere fretta* (acelesi olmak) -> Scusa, ho fretta! (Kusura bakma, acelem var!)
 
-- **Yaş Söyleme:** 
+- **Yaş Söyleme:**
   İtalyancada yaş, sahip olunan bir şeydir!
   - *Io ho 20 anni.* (Ben 20 yaşındayım. Tam çevirisi: "Ben 20 yıla sahibim.")
   - *Quanti anni ha?* (O kaç yaşında?)
+
+### "Aver Bisogno di" ve "Aver Voglia di" Kalıpları
+
+**Avere** fiili, ihtiyaç ve istek bildiren kalıplarda da sıkça kullanılır.
+
+| Kalıp | Anlam | Örnek |
+| --- | --- | --- |
+| **Ho bisogno di...** | İhtiyacım var | *Ho bisogno di aiuto.* (Yardıma ihtiyacım var.) |
+| **Ho voglia di...** | Canım istiyor / İstiyorum | *Ho voglia di un caffè.* (Bir kahve canım istiyor.) |
+
+- **Ho bisogno di** + isim/mastar: *Ho bisogno di soldi.* / *Ho bisogno di dormire.*
+- **Ho voglia di** + isim/mastar: *Ho voglia di uscire.* / *Ho voglia di un gelato.*
+
+> **Not:** Bu kalıplarda "di" edatı hem isimlerden hem de mastarlardan önce kullanılır.
     `
   },
   {
@@ -111,6 +125,84 @@ Sonu **-e** ile biten kelimelerin eril mi dişil mi olduğunu ezberlemek zorunda
 | la madr**e** | le madr**i** | (Dişil) | anne -> anneler |
 | il ristorant**e**| i ristorant**i**| (Eril) | restoran -> restoranlar |
 | la nott**e** | le nott**i** | (Dişil) | gece -> geceler |
+    `
+  },
+  {
+    id: 'verbi_are',
+    title: 'Düzenli -ARE Fiilleri (Presente)',
+    description: 'İtalyancada sonu "-are" ile biten düzenli fiiller, köklerinden bu ek ayrılarak yerine şahıs ekleri alır: -o, -i, -a, -iamo, -ate, -ano.',
+    content: `
+### Çekim Kuralı
+
+Mastar (-are) ekini atıp aşağıdaki ekleri ekleyin:
+
+| Şahıs | Ek | Abitare (Yaşamak) | Parlare (Konuşmak) | Studiare (Çalışmak) |
+| --- | --- | --- | --- | --- |
+| **Io** | -o | abit**o** | parl**o** | studi**o** |
+| **Tu** | -i | abit**i** | parl**i** | studi**i** |
+| **Lui / Lei** | -a | abit**a** | parl**a** | studi**a** |
+| **Noi** | -iamo | abit**iamo** | parl**iamo** | studi**amo** |
+| **Voi** | -ate | abit**ate** | parl**ate** | studi**ate** |
+| **Loro** | -ano | abit**ano** | parl**ano** | studi**ano** |
+
+### Sık Kullanılan -ARE Fiilleri
+
+| Mastar | Anlamı | Örnek |
+| --- | --- | --- |
+| **Abitare** | Yaşamak / İkamet etmek | *Abito a Milano.* (Milano'da yaşıyorum.) |
+| **Lavorare** | Çalışmak | *Lui lavora molto.* (O çok çalışıyor.) |
+| **Cucinare** | Yemek pişirmek | *Cuciniamo insieme!* (Birlikte pişirelim!) |
+| **Parlare** | Konuşmak | *Parlo italiano.* (İtalyanca konuşuyorum.) |
+| **Studiare** | Okumak / Ders çalışmak | *Studiate due ore al giorno.* (Günde iki saat çalışıyorsunuz.) |
+| **Imparare** | Öğrenmek | *Imparo piano piano.* (Yavaş yavaş öğreniyorum.) |
+| **Mangiare** | Yemek yemek | *Mangiamo la pizza!* (Pizza yiyelim!) |
+| **Costare** | Mal olmak / Tutmak | *Quanto costa?* (Ne kadar tutuyor?) |
+
+> **İpucu:** Studiare ve Mangiare gibi *-iare* ile biten fiillerde **Noi** çekimi **-iamo** değil **-amo** olur: *studiamo*, *mangiamo* (i zaten kök içinde var, çift yazılmaz).
+    `
+  },
+  {
+    id: 'aggettivi_accordo',
+    title: 'Sıfatlarda Cinsiyet ve Sayı Uyumu',
+    description: 'İtalyancada sıfatlar, niteledikleri ismin cinsiyetine (eril/dişil) ve sayısına (tekil/çoğul) uymak zorundadır.',
+    content: `
+### Temel Kural
+
+| | Tekil (Singolare) | Çoğul (Plurale) |
+| --- | --- | --- |
+| **Eril (Maschile)** | -**o** | -**i** |
+| **Dişil (Femminile)** | -**a** | -**e** |
+
+### -O / -A ile Biten Sıfatlar
+
+| Sıfat | Eril Tekil | Dişil Tekil | Eril Çoğul | Dişil Çoğul | Anlam |
+| --- | --- | --- | --- | --- | --- |
+| Nuovo | nuov**o** | nuov**a** | nuov**i** | nuov**e** | Yeni |
+| Vecchio | vecchi**o** | vecchi**a** | vecch**i** | vecchi**e** | Eski |
+| Rosso | ross**o** | ross**a** | ross**i** | ross**e** | Kırmızı |
+| Bianco | bianc**o** | bianc**a** | bianch**i** | bianch**e** | Beyaz |
+| Nero | ner**o** | ner**a** | ner**i** | ner**e** | Siyah |
+| Bello | bell**o** | bell**a** | bell**i** | bell**e** | Güzel |
+| Buono | buon**o** | buon**a** | buon**i** | buon**e** | İyi |
+| Alto | alt**o** | alt**a** | alt**i** | alt**e** | Uzun/Yüksek |
+| Basso | bass**o** | bass**a** | bass**i** | bass**e** | Kısa/Alçak |
+
+### -E ile Biten Sıfatlar (Hem Eril Hem Dişil)
+Bu sıfatlar tekilde değişmez, çoğulda **-i** alır.
+
+| Sıfat | Tekil (Eril = Dişil) | Çoğul | Anlam |
+| --- | --- | --- | --- |
+| Insegnante | insegnante | insegnant**i** | Öğretmen |
+| Cinese | cinese | cines**i** | Çinli |
+| Francese | francese | frances**i** | Fransız |
+| Inglese | inglese | ingles**i** | İngiliz |
+| Parente | parente | parent**i** | Akraba |
+
+### Örnekler
+- *Un ragazzo alt**o**.* (Uzun bir erkek.) → *Due ragazzi alt**i**.* (İki uzun erkek.)
+- *Una ragazza alt**a**.* (Uzun bir kız.) → *Due ragazze alt**e**.* (İki uzun kız.)
+- *Un libro nuov**o**.* (Yeni bir kitap.) → *Libri nuov**i**.* (Yeni kitaplar.)
+- *Una macchina nuov**a**.* (Yeni bir araba.) → *Macchine nuov**e**.* (Yeni arabalar.)
     `
   },
   {

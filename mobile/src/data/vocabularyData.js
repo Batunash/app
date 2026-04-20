@@ -162,10 +162,26 @@ export const vocabularyData = [
     id: 'aggettivi',
     title: 'Sıfatlar ve Durum Bildiren Kelimeler',
     content: `
-- **Stanco:** Yorgun
-- **Bravo:** Yetenekli / İyi
-- **Vero:** Doğru
-- **Falso:** Yanlış
+- **Stanco / Stanca:** Yorgun
+- **Bravo / Brava:** Yetenekli / İyi
+- **Vero / Vera:** Doğru
+- **Falso / Falsa:** Yanlış
+- **Nuovo / Nuova:** Yeni
+- **Vecchio / Vecchia:** Eski
+- **Rosso / Rossa:** Kırmızı
+- **Bianco / Bianca:** Beyaz
+- **Nero / Nera:** Siyah
+- **Giallo / Gialla:** Sarı
+- **Bello / Bella:** Güzel / Yakışıklı
+- **Brutto / Brutta:** Çirkin
+- **Buono / Buona:** İyi / Lezzetli
+- **Cattivo / Cattiva:** Kötü
+- **Alto / Alta:** Uzun / Yüksek
+- **Basso / Bassa:** Kısa / Alçak
+- **Molto / Molta:** Çok
+- **Poco / Poca:** Az
+- **Tanto / Tanta:** Çok (miktarsal)
+- **Gratuito / Gratuita:** Ücretsiz
     `
   },
   {
@@ -176,6 +192,140 @@ export const vocabularyData = [
 - **Carota:** Havuç
 - **Chilo:** Kilo
 - **Pace:** Barış
+    `
+  },
+  {
+    id: 'vestiti',
+    title: 'Kıyafetler (I Vestiti)',
+    content: `
+- **Pantalone:** Pantolon
+- **Maglione:** Kazak
+- **Maglietta:** Tişört
+- **Cappello:** Şapka
+- **Sciarpa:** Atkı / Eşarp
+- **Gonna:** Etek
+- **Scarpa:** Ayakkabı
+- **Guanto:** Eldiven
+- **Calzino:** Çorap
+- **Calza:** Külotlu çorap
+    `
+  },
+  {
+    id: 'abitare',
+    title: 'Yaşam ve İkamet İfadeleri (Abitare)',
+    content: `
+- **Dove abiti?:** Nerede yaşıyorsun?
+- **Abito a...:** ...'da/de yaşıyorum
+- **Con chi abiti?:** Kiminle yaşıyorsun?
+- **Abito con...:** ... ile yaşıyorum
+- **Da quanto tempo abitate qui?:** Ne kadar zamandır burada yaşıyorsunuz?
+- **Abitiamo qui da 3 anni:** 3 yıldır burada yaşıyoruz
+- **In periferia:** Banliyöde / Kenar mahallede
+- **In centro:** Merkezde / Şehir merkezinde
+- **Fidanzato / Fidanzata:** Nişanlı / Erkek arkadaş / Kız arkadaş
+- **Lingua:** Dil
+- **Scuola per stranieri:** Yabancılar için okul
+- **Ora:** Saat (birim)
+- **Giorno:** Gün
+- **Fretta:** Acele
+- **Piano piano:** Yavaş yavaş
+- **In fretta:** Aceleyle / Çabucak
+- **Costa molto?:** Çok mu tutuyor / Pahalı mı?
+- **È gratuita:** Ücretsiz
+    `
+  },
+  {
+    id: 'bisogno_voglia',
+    title: 'Ho Bisogno di / Ho Voglia di',
+    content: `
+### Ho bisogno di... (İhtiyacım var...)
+- **Ho bisogno di un bagno:** Bir banyoya / tuvalete ihtiyacım var
+- **Ho bisogno di un fazzoletto:** Bir mendile ihtiyacım var
+- **Ho bisogno di soldi:** Paraya ihtiyacım var
+- **Ho bisogno di dormire:** Uyumaya ihtiyacım var
+- **Ho bisogno di un computer:** Bir bilgisayara ihtiyacım var
+- **Ho bisogno di aiuto:** Yardıma ihtiyacım var
+
+### Ho voglia di... (Canım istiyor / İstiyorum...)
+- **Ho voglia di un caffè:** Bir kahve canım istiyor
+- **Ho voglia di un gelato:** Bir dondurma canım istiyor
+- **Ho voglia di uscire:** Dışarı çıkmak istiyorum
+- **Ho voglia di ballare:** Dans etmek istiyorum
+- **Ho voglia di andare al mare:** Denize gitmek istiyorum
+- **Ho voglia di imparare:** Öğrenmek istiyorum
+    `
+  },
+  {
+    id: 'varie',
+    title: 'Çeşitli İsimler (Nomi Vari)',
+    content: `
+- **Fazzoletto:** Mendil
+- **Soldi:** Para
+- **Aiuto:** Yardım
+- **Bagno:** Banyo / Tuvalet
+- **Caffè:** Kahve
+- **Gelato:** Dondurma
+- **Mare:** Deniz
+- **Familiari:** Aile üyeleri / Akrabalar
+- **Amici:** Arkadaşlar
+- **Parente:** Akraba
+- **Paese:** Ülke / Kasaba
+- **Chiave:** Anahtar
+- **Piede:** Ayak
+- **Badante:** Bakıcı
+- **Pesce:** Balık
+- **Fiume:** Nehir
+- **Dottore:** Doktor
+- **Luce:** Işık
+- **Stazione:** İstasyon
+- **Colore:** Renk
+- **Canzone:** Şarkı
+- **Ristorante:** Restoran
+- **Insegnante:** Öğretmen (erkek / kadın)
+- **Dormire:** Uyumak
+- **Ballare:** Dans etmek
+- **Uscire:** Dışarı çıkmak
+- **Scrivere:** Yazmak
+    `
+  },
+  {
+    id: 'fonetica_sc',
+    title: 'Fonetik: SC Sesleri',
+    content: `
+### Yumuşak SC — /ʃ/ sesi (Türkçe "ş" gibi)
+E ve I harflerinden önce geldiğinde yumuşak okunur.
+
+- **Sciarpa:** Atkı
+- **Pesce:** Balık
+- **Asciugamano:** Havlu
+- **Ascensore:** Asansör
+- **Scimmia:** Maymun
+- **Sci:** Kayak
+- **Sciroppo:** Şurup
+- **Sceriffo:** Şerif
+- **Scivolo:** Kaydırak
+- **Cuscino:** Yastık
+
+### Sert SC — /sk/ sesi (Türkçe "sk" gibi)
+A, O, U harflerinden önce veya araya H girdiğinde sert okunur.
+
+- **Scala:** Merdiven
+- **Scopa:** Süpürge
+- **Scultura:** Heykel
+- **Scuola:** Okul
+- **Maschera:** Maske
+- **Bosco:** Orman
+- **Scatola:** Kutu
+- **Maschio:** Erkek
+- **Fischietto:** Düdük
+- **Scrivania:** Çalışma masası
+- **Mosche:** Sinekler
+- **Scarpa:** Ayakkabı
+
+### Şehir ve Ülke İsimleri (SC Pratiği)
+- **Scozia:** İskoçya
+- **Edimburgo:** Edinburgh
+- **Glasgow:** Glasgow
     `
   }
 ];

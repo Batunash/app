@@ -162,14 +162,16 @@ export const quizData = {
     { question: "Cognome ne demektir?", options: ["Soyadı", "İsim", "Doğum yeri", "Doğum tarihi"], answer: "Soyadı" }
   ],
   aggettivi: [
-    { question: "Yorgun", options: ["Stanco", "Bravo", "Vero", "Falso"], answer: "Stanco" },
-    { question: "Yetenekli / İyi", options: ["Bravo", "Stanco", "Vero", "Falso"], answer: "Bravo" },
-    { question: "Doğru", options: ["Vero", "Falso", "Stanco", "Bravo"], answer: "Vero" },
-    { question: "Yanlış", options: ["Falso", "Vero", "Stanco", "Bravo"], answer: "Falso" },
-    { question: "Stanco ne demektir?", options: ["Yorgun", "İyi", "Doğru", "Yanlış"], answer: "Yorgun" },
-    { question: "Bravo ne demektir?", options: ["Yetenekli / İyi", "Yorgun", "Doğru", "Yanlış"], answer: "Yetenekli / İyi" },
-    { question: "Vero ne demektir?", options: ["Doğru", "Yanlış", "Yorgun", "İyi"], answer: "Doğru" },
-    { question: "Falso ne demektir?", options: ["Yanlış", "Doğru", "Yorgun", "Yetenekli"], answer: "Yanlış" }
+    { question: "Yorgun", options: ["Stanco/a", "Bravo/a", "Nuovo/a", "Falso/a"], answer: "Stanco/a" },
+    { question: "Yeni", options: ["Nuovo/a", "Vecchio/a", "Alto/a", "Basso/a"], answer: "Nuovo/a" },
+    { question: "Kırmızı", options: ["Rosso/a", "Bianco/a", "Nero/a", "Giallo/a"], answer: "Rosso/a" },
+    { question: "Güzel / Yakışıklı", options: ["Bello/a", "Brutto/a", "Buono/a", "Cattivo/a"], answer: "Bello/a" },
+    { question: "Ücretsiz", options: ["Gratuito/a", "Molto/a", "Poco/a", "Tanto/a"], answer: "Gratuito/a" },
+    { question: "Vecchio/a ne demektir?", options: ["Eski", "Yeni", "Kısa", "Uzun"], answer: "Eski" },
+    { question: "Buono/a ne demektir?", options: ["İyi / Lezzetli", "Kötü", "Çirkin", "Güzel"], answer: "İyi / Lezzetli" },
+    { question: "Cattivo/a ne demektir?", options: ["Kötü", "İyi", "Doğru", "Yanlış"], answer: "Kötü" },
+    { question: "Alto/a ne demektir?", options: ["Uzun / Yüksek", "Kısa", "Çok", "Az"], answer: "Uzun / Yüksek" },
+    { question: "Poco/a ne demektir?", options: ["Az", "Çok", "Yeni", "Eski"], answer: "Az" }
   ],
   extra: [
     { question: "Saat kaç?", options: ["Che ore sono?", "Carota", "Pace", "Chilo"], answer: "Che ore sono?" },
@@ -180,5 +182,89 @@ export const quizData = {
     { question: "Carota ne demektir?", options: ["Havuç", "Kilo", "Barış", "Saat kaç?"], answer: "Havuç" },
     { question: "Chilo ne demektir?", options: ["Kilo", "Havuç", "Barış", "Saat kaç?"], answer: "Kilo" },
     { question: "Pace ne demektir?", options: ["Barış", "Kilo", "Havuç", "Saat kaç?"], answer: "Barış" }
+  ],
+  vestiti: [
+    { question: "Pantolon", options: ["Pantalone", "Maglione", "Gonna", "Scarpa"], answer: "Pantalone" },
+    { question: "Kazak", options: ["Maglione", "Maglietta", "Cappello", "Sciarpa"], answer: "Maglione" },
+    { question: "Tişört", options: ["Maglietta", "Maglione", "Calzino", "Guanto"], answer: "Maglietta" },
+    { question: "Şapka", options: ["Cappello", "Sciarpa", "Gonna", "Calza"], answer: "Cappello" },
+    { question: "Etek", options: ["Gonna", "Scarpa", "Calzino", "Maglione"], answer: "Gonna" },
+    { question: "Ayakkabı", options: ["Scarpa", "Guanto", "Calzino", "Cappello"], answer: "Scarpa" },
+    { question: "Eldiven", options: ["Guanto", "Calzino", "Scarpa", "Sciarpa"], answer: "Guanto" },
+    { question: "Pantalone ne demektir?", options: ["Pantolon", "Kazak", "Etek", "Şapka"], answer: "Pantolon" },
+    { question: "Sciarpa ne demektir?", options: ["Atkı / Eşarp", "Çorap", "Eldiven", "Tişört"], answer: "Atkı / Eşarp" },
+    { question: "Calzino ne demektir?", options: ["Çorap", "Külotlu çorap", "Eldiven", "Ayakkabı"], answer: "Çorap" }
+  ],
+  abitare: [
+    { question: "'Nerede yaşıyorsun?' nedir?", options: ["Dove abiti?", "Con chi abiti?", "Da quanto tempo?", "Dove sei?"], answer: "Dove abiti?" },
+    { question: "'Kiminle yaşıyorsun?' nedir?", options: ["Con chi abiti?", "Dove abiti?", "Da quanto?", "Chi sei?"], answer: "Con chi abiti?" },
+    { question: "Banliyö / Kenar mahalle", options: ["Periferia", "Centro", "Paese", "Stazione"], answer: "Periferia" },
+    { question: "Şehir merkezi", options: ["Centro", "Periferia", "Paese", "Lingua"], answer: "Centro" },
+    { question: "Nişanlı / Erkek arkadaş", options: ["Fidanzato", "Amico", "Parente", "Fratello"], answer: "Fidanzato" },
+    { question: "Yavaş yavaş", options: ["Piano piano", "In fretta", "Adesso", "Dopo"], answer: "Piano piano" },
+    { question: "Acele", options: ["Fretta", "Piano piano", "Ora", "Giorno"], answer: "Fretta" },
+    { question: "Dove abiti? ne demektir?", options: ["Nerede yaşıyorsun?", "Kiminle yaşıyorsun?", "Ne zamandır?", "Nereden?"], answer: "Nerede yaşıyorsun?" },
+    { question: "Periferia ne demektir?", options: ["Banliyö / Kenar mahalle", "Şehir merkezi", "Ülke", "İstasyon"], answer: "Banliyö / Kenar mahalle" },
+    { question: "'Yabancılar için okul' nedir?", options: ["Scuola per stranieri", "Scuola pubblica", "Scuola privata", "Università"], answer: "Scuola per stranieri" }
+  ],
+  bisogno_voglia: [
+    { question: "'Ho bisogno di...' ne demektir?", options: ["İhtiyacım var...", "Canım istiyor...", "Seviyorum...", "Biliyorum..."], answer: "İhtiyacım var..." },
+    { question: "'Ho voglia di...' ne demektir?", options: ["Canım istiyor...", "İhtiyacım var...", "Korkuyorum...", "Unutuyorum..."], answer: "Canım istiyor..." },
+    { question: "Yardıma ihtiyacım var.", options: ["Ho bisogno di aiuto.", "Ho voglia di aiuto.", "Ho bisogno di soldi.", "Ho voglia di uscire."], answer: "Ho bisogno di aiuto." },
+    { question: "Bir kahve canım istiyor.", options: ["Ho voglia di un caffè.", "Ho bisogno di un caffè.", "Ho voglia di un gelato.", "Ho bisogno di ballare."], answer: "Ho voglia di un caffè." },
+    { question: "Uyumaya ihtiyacım var.", options: ["Ho bisogno di dormire.", "Ho voglia di dormire.", "Ho bisogno di ballare.", "Ho voglia di imparare."], answer: "Ho bisogno di dormire." },
+    { question: "Dans etmek istiyorum.", options: ["Ho voglia di ballare.", "Ho bisogno di ballare.", "Ho voglia di uscire.", "Ho bisogno di dormire."], answer: "Ho voglia di ballare." },
+    { question: "Paraya ihtiyacım var.", options: ["Ho bisogno di soldi.", "Ho voglia di soldi.", "Ho bisogno di aiuto.", "Ho voglia di un caffè."], answer: "Ho bisogno di soldi." },
+    { question: "Denize gitmek istiyorum.", options: ["Ho voglia di andare al mare.", "Ho bisogno di andare al mare.", "Ho voglia di uscire.", "Ho bisogno di dormire."], answer: "Ho voglia di andare al mare." },
+    { question: "Ho bisogno di ___ (tuvalet).", options: ["un bagno", "un caffè", "un gelato", "aiuto"], answer: "un bagno" },
+    { question: "Ho voglia di ___ (öğrenmek).", options: ["imparare", "dormire", "ballare", "uscire"], answer: "imparare" }
+  ],
+  varie: [
+    { question: "Mendil", options: ["Fazzoletto", "Soldi", "Aiuto", "Bagno"], answer: "Fazzoletto" },
+    { question: "Para", options: ["Soldi", "Fazzoletto", "Aiuto", "Mare"], answer: "Soldi" },
+    { question: "Deniz", options: ["Mare", "Fiume", "Luce", "Pesce"], answer: "Mare" },
+    { question: "Balık", options: ["Pesce", "Fiume", "Mare", "Badante"], answer: "Pesce" },
+    { question: "Nehir", options: ["Fiume", "Mare", "Luce", "Paese"], answer: "Fiume" },
+    { question: "Işık", options: ["Luce", "Colore", "Canzone", "Stazione"], answer: "Luce" },
+    { question: "Şarkı", options: ["Canzone", "Colore", "Luce", "Stazione"], answer: "Canzone" },
+    { question: "Fazzoletto ne demektir?", options: ["Mendil", "Para", "Yardım", "Banyo"], answer: "Mendil" },
+    { question: "Familiari ne demektir?", options: ["Aile üyeleri / Akrabalar", "Arkadaşlar", "Öğretmenler", "Komşular"], answer: "Aile üyeleri / Akrabalar" },
+    { question: "Aiuto ne demektir?", options: ["Yardım", "Para", "Mendil", "Dondurma"], answer: "Yardım" }
+  ],
+  fonetica_sc: [
+    { question: "'Sciarpa' nasıl okunur?", options: ["Şarpa (yumuşak)", "Skarpa (sert)", "Çarpa", "Zarpa"], answer: "Şarpa (yumuşak)" },
+    { question: "'Scuola' nasıl okunur?", options: ["Skuola (sert)", "Şuola (yumuşak)", "Çuola", "Zuola"], answer: "Skuola (sert)" },
+    { question: "'Scala' nasıl okunur?", options: ["Skala (sert)", "Şala (yumuşak)", "Çala", "Zala"], answer: "Skala (sert)" },
+    { question: "'Pesce' nasıl okunur?", options: ["Peşe (yumuşak)", "Peske (sert)", "Peçe", "Peze"], answer: "Peşe (yumuşak)" },
+    { question: "Asciugamano ne demektir?", options: ["Havlu", "Yastık", "Kaydırak", "Asansör"], answer: "Havlu" },
+    { question: "Scivolo ne demektir?", options: ["Kaydırak", "Havlu", "Yastık", "Merdiven"], answer: "Kaydırak" },
+    { question: "Cuscino ne demektir?", options: ["Yastık", "Havlu", "Kaydırak", "Şurup"], answer: "Yastık" },
+    { question: "Scala ne demektir?", options: ["Merdiven", "Süpürge", "Maske", "Kutu"], answer: "Merdiven" },
+    { question: "Scozia nedir?", options: ["İskoçya", "İspanya", "İsveç", "İsviçre"], answer: "İskoçya" },
+    { question: "SC sesi e/i'den önce gelince nasıl okunur?", options: ["Yumuşak (ş)", "Sert (sk)", "Her zaman sert", "Sessiz kalır"], answer: "Yumuşak (ş)" }
+  ],
+  verbi_are: [
+    { question: "Io ___ a Roma. (abitare)", options: ["abito", "abiti", "abita", "abitano"], answer: "abito" },
+    { question: "Tu ___ italiano? (parlare)", options: ["parli", "parlo", "parla", "parlate"], answer: "parli" },
+    { question: "Lui ___ molto. (lavorare)", options: ["lavora", "lavoro", "lavori", "lavorano"], answer: "lavora" },
+    { question: "Noi ___ la pizza. (mangiare)", options: ["mangiamo", "mangiate", "mangiano", "mangio"], answer: "mangiamo" },
+    { question: "Voi ___ due ore. (studiare)", options: ["studiate", "studiamo", "studiano", "studio"], answer: "studiate" },
+    { question: "Loro ___ piano piano. (imparare)", options: ["imparano", "imparate", "impariamo", "imparo"], answer: "imparano" },
+    { question: "Quanto ___ ? (costare)", options: ["costa", "costo", "costi", "costano"], answer: "costa" },
+    { question: "Abitare ne demektir?", options: ["Yaşamak / İkamet etmek", "Çalışmak", "Öğrenmek", "Konuşmak"], answer: "Yaşamak / İkamet etmek" },
+    { question: "Imparare ne demektir?", options: ["Öğrenmek", "Öğretmek", "Çalışmak", "Konuşmak"], answer: "Öğrenmek" },
+    { question: "-ARE fiilinde Noi çekiminin eki nedir?", options: ["-iamo", "-ate", "-ano", "-o"], answer: "-iamo" }
+  ],
+  aggettivi_accordo: [
+    { question: "'Un ragazzo ___.' (alto)", options: ["alto", "alta", "alti", "alte"], answer: "alto" },
+    { question: "'Una ragazza ___.' (alto)", options: ["alta", "alto", "alti", "alte"], answer: "alta" },
+    { question: "'Due ragazzi ___.' (bello)", options: ["belli", "belle", "bello", "bella"], answer: "belli" },
+    { question: "'Due ragazze ___.' (bello)", options: ["belle", "belli", "bello", "bella"], answer: "belle" },
+    { question: "'Un libro ___.' (nuovo)", options: ["nuovo", "nuova", "nuovi", "nuove"], answer: "nuovo" },
+    { question: "'Due macchine ___.' (rosso)", options: ["rosse", "rossi", "rosso", "rossa"], answer: "rosse" },
+    { question: "Eril sıfatların çoğul eki nedir?", options: ["-i", "-e", "-a", "-o"], answer: "-i" },
+    { question: "Dişil sıfatların çoğul eki nedir?", options: ["-e", "-i", "-a", "-o"], answer: "-e" },
+    { question: "'Insegnante' çoğulu nedir?", options: ["insegnanti", "insegnante", "insegnante", "insegnanteo"], answer: "insegnanti" },
+    { question: "'Un maglione ___.' (bianco)", options: ["bianco", "bianca", "bianchi", "bianche"], answer: "bianco" }
   ]
 };
